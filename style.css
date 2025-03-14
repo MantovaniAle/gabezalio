@@ -46,3 +46,7 @@ img {
   border-radius: 3px;
   z-index: 1; /* ensure that the span element is under the checkbox */
 }
+
+#menuToggle input:checked ~ ul {
+  left:40px;
+}
