@@ -1,23 +1,48 @@
 html {
-    box-sizing: border-box;
-    font-size: 16px;
-  }
-  
-  *, *:before, *:after {
-    box-sizing: inherit;
-  }
-  
-  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
-    margin: 0;
-    padding: 0;
-    font-weight: normal;
-  }
-  
-  ol, ul {
-    list-style: none;
-  }
-  
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#menuToggle {
+  position: relative;
+  z-index: 1;
+ }
+
+#menuToggle input {
+  position: absolute;
+  width:40px;
+  cursor: pointer;
+  opacity: 0; 
+  z-index: 2; /* in order to place the checkbox over the hamburguer */
+  -webkit-touch-callout: none;
+}
+
+#menuToggle span {
+  display: block; /* to ensure that each span element occupies its own line. */
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px; /* create some spacing between the span elements. */
+  position: relative; /* allow for positioning changes in relation to the parent div.*/
+  background: #cdcdcd;
+  border-radius: 3px;
+  z-index: 1; /* ensure that the span element is under the checkbox */
+}
