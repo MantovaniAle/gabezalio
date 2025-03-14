@@ -57,11 +57,7 @@ img {
   padding-top: 125px;
   background: #ededed;
   list-style-type: none; /* removes the default bullet points of the list. */
-  -webkit-font-smoothing: antialiased; /*This property sets the font smoothing for webkit browsers. */
-  
-  transition: left 0.5s; /* This property sets the transition effect for the left property. This will create a smooth animation when the menu slides in from the left.*/
 }
-
 #menu li {
   padding: 10px 0;
   font-size: 22px;
