@@ -43,7 +43,7 @@ label {
   transition: 0.4s;
   }
   
-  /* Style the navigation menu */
+  /* estilo da barra de navegacao */
   .menu {
   display: none;
   flex-direction: column;
@@ -65,7 +65,7 @@ label {
   background-color: #575757;
   }
   
-  /* Toggle the menu visibility */
+  /* mudar visibilidade menu */
   #menu-toggle:checked + .menu {
   display: flex;
   }
