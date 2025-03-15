@@ -14,6 +14,10 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   background-color: #443627;
 }
 
+body{
+  background-color: #443627;
+}
+
 header {
   background-color: #EFDCAB;
   color:white;
@@ -31,7 +35,7 @@ img {
 }
 
 label {
-  margin: 1px;
+  margin: 1px 1px 1px 1px;
 }
 
 /* estilo do sanduiche */
