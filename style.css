@@ -11,6 +11,12 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
   margin: 0;
   padding: 0;
   font-weight: normal;
+  background-color: #443627;
+}
+
+header {
+  background-color: #EFDCAB;
+  color:white;
 }
 
 ol, ul {
@@ -22,11 +28,11 @@ img {
   height: auto;
 }
 
-/* Style the hamburger menu icon */
+/* estilo do sanduiche */
 .hamburger {
   width: 30px;
   height: 3px;
-  background-color: #333;
+  background-color: #333333;
   margin: 6px 0;
   transition: 0.4s;
   }
