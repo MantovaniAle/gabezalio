@@ -17,6 +17,8 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 header {
   background-color: #EFDCAB;
   color:white;
+  margin: 0;
+  
 }
 
 ol, ul {
@@ -26,6 +28,10 @@ ol, ul {
 img {
   max-width: 100%;
   height: auto;
+}
+
+label {
+  margin: 3px;
 }
 
 /* estilo do sanduiche */
