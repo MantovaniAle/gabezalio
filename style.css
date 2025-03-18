@@ -22,6 +22,8 @@ header {
   background-color: #EFDCAB;
   color:white;
   margin: 0;
+  display: flex;
+  justify-content: space-between;
   
 }
 
@@ -72,4 +74,15 @@ label {
   /* mudar visibilidade menu */
   #menu-toggle:checked + .menu {
   display: flex;
+  }
+
+  .sessao{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+  }
+
+  .menuSec{
+    display: flex;
+    flex-direction: row;
   }
