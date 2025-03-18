@@ -78,11 +78,19 @@ label {
 
   .sessao{
     color: white;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
   }
 
   .menuSec{
     display: flex;
     flex-direction: row;
+  }
+
+  button {
+    border: none;
+    color: white;
+    background-color: #333333;
+    border-color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
   }
