@@ -96,3 +96,7 @@ label {
     margin: 2px;
   
   }
+
+  .sessao:hover {
+    background-color: #575757;
+  }
