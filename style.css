@@ -97,6 +97,6 @@ label {
   
   }
 
-  .sessao:hover {
+  .sessao button:hover {
     background-color: #575757;
   }
