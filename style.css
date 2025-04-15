@@ -20,7 +20,15 @@ ul {
 
 body {
   background-color: #443627;
+
 }
+
+body h1 {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  height: 10px;
+}
+
 
 header {
   background-color: #EFDCAB;
