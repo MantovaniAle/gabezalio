@@ -116,7 +116,5 @@ button {
 #corpo-texto {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 1px;
+  align-items: center;
 }
