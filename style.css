@@ -114,7 +114,6 @@ button {
 }
 
 #corpo-texto {
-  display: flex;
-  flex-direction: column;
+  display: contents;
   align-items: center;
 }
